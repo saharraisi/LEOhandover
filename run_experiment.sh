@@ -8,7 +8,8 @@ cd "${filename}"
 git config --global http.postBuffer 524288000
 git config --global http.maxRequestBuffer 1048576000
 
-git clone https://github.com/zbh888/LEOhandover.git main
+# git clone https://github.com/zbh888/LEOhandover.git main
+git clone https://github.com/saharraisi/LEOhandover.git main
 
 # input_array=(10000 20000 30000 40000 50000 60000 70000) # Modify this array with your desired values
 input_array=(10000 20000)
@@ -24,7 +25,8 @@ done
 git config --global http.postBuffer 524288000
 git config --global http.maxRequestBuffer 1048576000
 
-git clone -b group https://github.com/zbh888/LEOhandover.git group
+# git clone -b group https://github.com/zbh888/LEOhandover.git group
+git clone -b group https://github.com/saharraisi/LEOhandover.git group
 
 for value in "${input_array[@]}"; do
     cp -r group "group${value}"
