@@ -92,7 +92,8 @@ Random Access and inter-satellite messages will not be restricted to Queue Size.
 because that's not the beginning of a handover.
 '''
 
-SATELLITE_CPU = 4
+# SATELLITE_CPU = 4
+SATELLITE_CPU = 6
 UE_CPU = 4
 
 '''
