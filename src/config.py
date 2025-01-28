@@ -1,7 +1,7 @@
 # System level config
 SEED = 10
 NUMBER_UE = 20000
-SATELLITE_R = 100 * 1000
+SATELLITE_R = 25 * 1000
 SATELLITE_V = 7.56 * 1000
 SATELLITE_GROUND_DELAY = 3
 SATELLITE_SATELLITE_DELAY = 1
@@ -71,7 +71,8 @@ Random Access and inter-satellite messages will not be restricted to Queue Size.
 because that's not the beginning of a handover.
 '''
 
-SATELLITE_CPU = 6
+# SATELLITE_CPU = 6
+SATELLITE_CPU = 4
 UE_CPU = 4
 
 '''
